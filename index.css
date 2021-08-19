@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+}
+
+.cv {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.izq {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+  padding: 16px;
+}
+
+.izq-guaido {
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0 auto;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 250px;
+}
+
+.izq-guaido > img {
+  width: 100%;
+}
+
+.izq-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-bottom: 300px;
+  
+}
+
+.izq-intro-titulo {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.der {
+  width: 70%;
+  height: 100%;
+  padding: 32px;
+}
+
+.der-header {
+  margin-bottom: 100px;
+}
+
+.der-header-arriba > h1 {
+  font-size: 4em;
+  color: rgb(221, 221, 221);
+  font-weight: 300;
+}
+
+.der-header-arriba > h1 > strong {
+  color: rgb(226, 223, 12);
+}
+
+.der-header-abajo-subtitle {
+  color: rgb(128, 128, 128);
+  font-size: 1.4em;
+}
+
+.der-header-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.der-header-abajo-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.der-header-abajo-redes-item {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(245, 245, 245);
+  margin-left: 8px;
+}
+
+.der-content {
+  padding: 16px 0;
+  border-top: rgb(245, 245, 245) 3px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.der-text-1 {
+  margin-bottom: 8px;
+}
+
+.der-text-1 > strong {
+  color: rgb(226, 223, 12);
+}
+
+.der-text-2{
+  margin-bottom: 100px;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.title > strong{
+  color: rgb(226, 223, 12);
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.text {
+
+}
+
+.de-cont-expertice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-end;
+  margin-bottom: 200px;
+}
+
+.option{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.end{
+  margin-bottom: 100px;
+}
+
+.optionSkill{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  border-width: 4px;
+}
